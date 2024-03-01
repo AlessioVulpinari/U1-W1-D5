@@ -1,22 +1,29 @@
-/* GENERAL */
+/* IMPORT FROM EXTERNAL LIBRARY */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+/*BODY*/
+
 body {
+  /*Dimension */
   max-width: 500px;
   min-width: 400px;
 
+  /*to make the body centered*/
   margin-left: auto;
   margin-right: auto;
 
+  /*line spacing*/
   line-height: 1.65;
 
+  /*external border*/
   border: 1px solid black;
 }
 
 /* HEADER */
 
 header {
+  /*some text set up*/
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -25,30 +32,42 @@ header {
 }
 
 header h1 {
-  color: #25a2c3;
+  /*Dimension, margin & paddings*/
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
+  padding-top: 8%;
+
+  /*some text set up*/
+  color: #25a2c3;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
   font-size: 1.8em;
-  padding-top: 8%;
 }
 
 header p {
+  /*Dimension*/
   width: 60%;
+
+  /*to make the paragraph centered*/
   margin-left: auto;
   margin-right: auto;
 }
 
 header button {
+  /*Dimension, margin and border*/
   width: 23%;
   height: 2.8em;
   border-radius: 5%;
+  border-width: 0;
+  margin-top: 5%;
+  margin-bottom: 7%;
+
+  /*some text set up and a color background*/
   background-color: #f04c2f;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -56,22 +75,22 @@ header button {
   font-style: normal;
   font-size: small;
   color: white;
-  border-width: 0;
-  margin-top: 5%;
-  margin-bottom: 7%;
 }
 
 #div_logo {
+  /*Background color for the logo*/
   background-color: black;
 }
 
 #div_logo img {
+  /*Dimension and some padding*/
   width: 25%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 #heading {
+  /*Background image*/
   background-image: url("/assets/images/banner.jpg");
   background-size: cover;
 }
@@ -79,6 +98,7 @@ header button {
 /* MAIN */
 
 main {
+  /*some text set up*/
   line-height: 1.65;
   font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
@@ -90,16 +110,22 @@ main {
 }
 
 main section article {
+  /*Dimension and some margin*/
   margin-top: 5%;
   margin-bottom: 5%;
   width: 80%;
+
+  /*to make the articles centered*/
   margin-left: auto;
   margin-right: auto;
 }
 
 main p {
+  /*color and dimension*/
   color: #393d41;
   width: 80%;
+
+  /*to make the paragraph centered*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -116,10 +142,12 @@ main h3 {
 
 #foto_computer {
   width: 50%;
+
+  /*to make an image spherical*/
   border-radius: 50%;
 }
 
-/* Section 2 Citazioni*/
+/* SECTION 2 QUOTES*/
 
 main section:nth-of-type(2) {
   background-color: #f04c2f;
@@ -147,7 +175,7 @@ section .quote {
   padding-bottom: 5%;
 }
 
-/*Section 3 immagini */
+/*SECTION 3 IMAGES */
 
 main section article img {
   width: 100%;
@@ -164,35 +192,49 @@ main section:nth-of-type(3) article p {
 /* FOOTER */
 
 footer {
+  /*some text set up*/
   line-height: 1.65;
   font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+
+  /*Colors*/
   background-color: #25a2c3;
   color: white;
-  text-align: center;
+
+  /*Margin*/
   margin-top: 15%;
 }
 
 footer h2 {
+  /*some text set up*/
   font-size: 2em;
   font-weight: bold;
 
+  /*padding*/
   padding-top: 8%;
 }
 
+/* 3th paragraph in footer*/
 footer p:nth-of-type(3) {
   padding-bottom: 5%;
 }
 
+/*last paragraph in footer*/
 footer p:last-of-type {
+  /* used to make the top line*/
   display: inline-block;
+
+  /*some text set up*/
+  font-size: 1rem;
+
+  /*padding and top line*/
   padding-top: 5%;
   padding-bottom: 10%;
   border-top: 1px solid white;
-  font-size: 1rem;
 }
 
 a:visited {
