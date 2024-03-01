@@ -6,6 +6,7 @@ body {
   /*line spacing*/
   line-height: 1.65;
 
+  /*Min dimension*/
   min-width: 1450px;
 }
 
@@ -16,6 +17,7 @@ body {
 }
 
 #div_logo img {
+  /*Dimension*/
   max-width: 10%;
   min-width: 8%;
   padding: 2% 0 2% 2%;
@@ -59,7 +61,7 @@ header p {
 
 #heading {
   /*Background image*/
-  background-image: url("/assets/images/banner.jpg");
+  background-image: url("assets/images/banner.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -110,17 +112,19 @@ main h3 {
 }
 
 section:first-of-type {
+  /*Dimension and margin*/
   display: inline-block;
-
   margin: 5% 5% 5% 10%;
 }
 
 aside {
+  /*Margin and Inline*/
   display: inline-block;
-  text-align: start;
-
   margin-left: 0.5%;
   margin-top: 0.5%;
+
+  /*some text set up*/
+  text-align: start;
 }
 
 main aside article {
@@ -140,14 +144,18 @@ main aside article {
 /* SECTION 2 QUOTES*/
 
 main section:nth-of-type(2) {
+  /*some color and text set up*/
   background-color: #f04c2f;
   text-align: center;
   color: white;
 }
 
 main section h2 {
+  /*some text set up*/
   font-size: 2em;
   font-weight: bold;
+
+  /*Padding*/
   padding-top: 7%;
   padding-bottom: 5%;
 }
